@@ -11,6 +11,7 @@ export default class extends Component {
           <div className="cv-container--elementary">
             <h1>{content.person}</h1>
             <Elementary content={content.elementary}/>
+            <button className="print" onClick={window.print}>PRINT</button>
           </div>
           <div className="cv-container--sections">
             <Sections content={content.sections}/>

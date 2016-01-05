@@ -8,7 +8,7 @@ To modify the look of the CV edit scss files in /components/cv
 
 
 TO DO:
-Due to React Static Boilerplate issuses there are problem with deployment to github. 
+Due to React Boiler Plate issues there is problem with deploying cv as project page.
 
 
 Rest works as in react static boilerplate:

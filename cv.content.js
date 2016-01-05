@@ -7,6 +7,9 @@ const content = {
     { title: 'twitter',
       link: 'https://twitter.com/mhcurylo',
       content: '@mhcurylo' },
+    { title: 'web cv',
+      link: 'http://mhcurylo.github.io/',
+      content: 'mhcurylo.github.io' },
     { title: 'email',
       content: 'mhcurylo@gmail.com' },
     { title: 'phone',
@@ -91,8 +94,8 @@ const content = {
       title: 'Portfolio',
       content: [
         {
-          title: 'CV generator',
-          link: 'www.github.com',
+          title: 'React CV generator',
+          link: 'https://github.com/mhcurylo/React-CV-generator',
           description: 'Generates CV page from JS object. Based on React Static Boilerplate.',
           technologies: 'ReactJS, phantomJS, ES6, eslint, scss',
           content: []},
