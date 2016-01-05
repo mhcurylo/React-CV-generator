@@ -1,0 +1,94 @@
+
+@import '../variables.scss';
+
+.cv-container {
+	display: flex;
+
+
+	&--elementary {
+		background: $brand-color;
+		flex: 0 1 auto;
+		min-width: 18em;
+		padding: 1em;
+		margin: 1em;
+	}
+
+	&--sections {
+		max-width: 40em;
+		display: flex;
+		flex: 0 1 auto;
+		padding: 1em;
+		margin: 1em;
+	}
+	a:link {
+	    text-decoration: none;
+	    color:  #0074D9;
+	    &.white {
+	    	color: #FFFFFF;
+	    }
+	}
+
+	/* visited link */
+	a:visited {
+		color:  #0074D9;
+		&.white {
+			color: #FFFFFF;
+		}
+	}
+
+	/* mouse over link */
+	a:hover {
+		color:  #0074D9;
+		&.white {
+			color: #FFFFFF;
+		}
+	}
+
+	/* selected link */
+	a:active {
+		color:  #0074D9;
+		&.white {
+			color: #FFFFFF;
+		}
+	}
+}
+
+.margin-bottom {
+	padding-bottom: 0.5em;
+}
+
+@media print {
+	.cv-container {
+		flex-direction: column;
+	
+	a:link {
+	    &.white {
+	    	color: #0074D9;
+	    }
+	}
+
+	/* visited link */
+	a:visited {
+		&.white {
+			color: #0074D9;
+		}
+	}
+
+	/* mouse over link */
+	a:hover {
+		&.white {
+			color: #0074D9;
+		}
+	}
+
+	/* selected link */
+	a:active {
+		&.white {
+			color: #0074D9;
+		}
+	}
+
+	}
+
+
+}

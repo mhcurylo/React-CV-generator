@@ -1,0 +1,16 @@
+.elementary__element{
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: stretch;
+	margin-bottom: 0.2em;
+
+	/* unvisited link */
+}
+.elementary__element__title{
+	padding: 0.2em;
+	width: 50%;
+}
+.elementary__element__content{
+	padding: 0.2em;
+	width: 100%;
+}
