@@ -5,5 +5,5 @@
  */
 
 export default {
-  title: 'Mateusz Curyło CV',
-  description: 'Mateusz Curyło CV cooked with React Static Boilerplate' };
+  title: 'Mateusz Curylo CV',
+  description: 'Mateusz Curylo CV cooked with React CV generator' };

@@ -20,7 +20,7 @@ const content = {
       content: [
         'I am a programmer and a philosopher with a background in philosophy of media and computing. Currently I enjoy frontend development, especially coding JavaScript and Single Page Applications.',
         'I have worked professionally on an AngularJS/Cordova mobile application, as well as large AngularJS projects consuming RESTful web services.',
-        'I am found of short Read-Evaluation-Print-Loops, tight coupling between theory and practice and the opportunities to learn new design patterns, frameworks and languages.',
+        'I am fond of short Read-Evaluation-Print-Loops, tight coupling between theory and practice and the opportunities to learn new design patterns, frameworks and languages.',
         'Recently I have been learning functional programming, React/Redux libraries and Clojure language. Some of the effects of my practice are available as Open Source at my github repository.']},
     {
       type: 'lists',
@@ -60,13 +60,12 @@ const content = {
         {
           title: 'Cometari Dedicated Solutions',
           time: 'October 2015 - December 2015, contract',
-          technologies: 'GIT, Grunt, AngularJS, REST, Scss, Bootstrap, Jeet, Svg, Trello, Jira',
+          technologies: 'GIT, Grunt, AngularJS, REST, OOP, Scss, Bootstrap, Jeet, Svg, Trello, Jira',
           description: 'Frontend JavaScript in a fast paced Agile environment',
           content: [
             'shipped SPA with AngularJS consuming RESTfull web services',
             'designed and developed module for creating HTML complex input forms from JSONs with AngularJS, lodash and advanced prototyping methods',
-            'developed AngularJS modules consuming REST web services',
-            'implemented interactive and static pages from wireframes using AngularJS/Bootstrap and AngularJS/Jeet']},
+            'implemented dynamic and static pages based on wireframes with AngularJS/Bootstrap and AngularJS/Jeet']},
         {
           title: 'Heartland Games',
           time: 'October 2014 - October 2015, self-founded',
@@ -75,7 +74,7 @@ const content = {
           content: [
             'shipped AngularJS/Cordova mobile game',
             'designed and developed an AngularJS/Cordova game for mobile',
-            'integrated Cordova plugins to Angular app including analytics, in-app biling and admob',
+            'integrated Cordova plugins to Angular app including analytics, in-app billing and admob',
             'designed and developed promotional webpage']},
         {
           title: 'Jagiellonian University',

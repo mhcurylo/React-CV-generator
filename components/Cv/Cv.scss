@@ -3,6 +3,7 @@
 
 .cv-container {
 	display: flex;
+	flex-direction: column;
 
 	.print {
 		background-color: $text-color;
@@ -65,6 +66,12 @@
 
 .margin-bottom {
 	padding-bottom: 0.5em;
+}
+
+@media (min-width: $screen-md-min) {
+  .cv-container {
+    flex-direction: row;
+  }
 }
 
 @media print {
