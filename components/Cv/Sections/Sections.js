@@ -1,6 +1,7 @@
 import React, { Component,  PropTypes } from 'react';
 import Paragraphs from '../Paragraphs';
 import Lists from '../Lists';
+import './Sections.scss';
 
 export default class extends Component {
 
@@ -10,7 +11,7 @@ export default class extends Component {
 
   render() {
     return (
-        <div>
+        <div className="limited">
             {this.props.content.map((section, keyId) => {
                 switch (section.type) {
                     case "paragraphs": 

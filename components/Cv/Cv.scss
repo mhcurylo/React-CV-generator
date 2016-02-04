@@ -32,7 +32,6 @@
 		margin: 1em;
 	}
 	a:link {
-	    text-decoration: none;
 	    color:  #0074D9;
 	    &.white {
 	    	color: #FFFFFF;
@@ -41,9 +40,9 @@
 
 	/* visited link */
 	a:visited {
-		color:  #0074D9;
+		color:  ##85144b;
 		&.white {
-			color: #FFFFFF;
+			color: #DDDDDD;
 		}
 	}
 
@@ -71,6 +70,9 @@
 @media (min-width: $screen-md-min) {
   .cv-container {
     flex-direction: row;
+	&--elementary {
+		min-width: none;
+	}
   }
 }
 
@@ -90,6 +92,7 @@
 
 		/* visited link */
 		a:visited {
+			color:  #0074D9;
 			&.white {
 				color: #0074D9;
 			}
